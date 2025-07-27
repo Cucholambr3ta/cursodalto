@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio - Curso de HTML de Dalto</title>
+    </head>
+    <body>
+        <h1>Curso de HTML - Página de Inicio</h1>
+        
+        <section>
+            <h2>1. Estructura Básica de HTML5</h2>
+            <p><strong>Comando útil:</strong> Escribiendo <code>html:5</code> en VS Code te crea automáticamente esta estructura básica:</p>
+            
+            <h3>Estructura completa HTML5:</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <h3>Explicación de cada parte:</h3>
+            <ul>
+                <li><strong>&lt;!DOCTYPE html&gt;:</strong> Declara que es un documento HTML5</li>
+                <li><strong>&lt;html lang="en"&gt;:</strong> Elemento raíz, lang especifica el idioma</li>
+                <li><strong>&lt;head&gt;:</strong> Contiene metadatos no visibles en la página</li>
+                <li><strong>&lt;body&gt;:</strong> Contiene todo el contenido visible de la página</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Meta Tags Importantes</h2>
+            <h3>charset="UTF-8"</h3>
+            <p>Define la codificación de caracteres del documento. UTF-8 soporta caracteres especiales y acentos correctamente.</p>
+            
+            <h3>viewport</h3>
+            <p>Configura la visualización en dispositivos móviles:</p>
+            <ul>
+                <li><strong>width=device-width:</strong> hace que el ancho de la página coincida con el ancho de la pantalla del dispositivo</li>
+                <li><strong>initial-scale=1.0:</strong> establece el nivel de zoom inicial al 100% cuando la página se carga por primera vez</li>
+            </ul>
+            <p>Esto es esencial para que la página se vea correctamente en teléfonos y tablets (diseño responsive).</p>
+        </section>
+
+        <section>
+            <h2>3. Comentarios en HTML</h2>
+            <p>Los comentarios en HTML se escriben así: <code>&lt;!-- Tu comentario aquí --&gt;</code></p>
+            <p><strong>Características de los comentarios:</strong></p>
+            <ul>
+                <li>No se muestran en el navegador</li>
+                <li>Son útiles para documentar el código</li>
+                <li>Ayudan a otros desarrolladores a entender tu código</li>
+                <li>Puedes usar múltiples líneas</li>
+            </ul>
+            
+            <h3>Ejemplo de comentarios:</h3>
+            <pre><code>&lt;!-- Este es un comentario de una línea --&gt;
+
+&lt;!-- Este es un comentario
+     de múltiples líneas
+     que explica algo importante --&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>4. Jerarquía de Encabezados</h2>
+            <p><strong>Comando útil:</strong> Si escribes <code>h$* cantidad de elementos h necesarios</code> te agrega automáticamente los elementos h1, h2, h3, etc. de manera ordenada.</p>
+
+            <h3>Uso correcto de encabezados:</h3>
+            <ul>
+                <li><strong>H1:</strong> Solo se utiliza 1 en la página web, será el encabezado más importante, lo que describe de qué tratará la página</li>
+                <li><strong>H2:</strong> Se utiliza para secciones o subtítulos</li>
+                <li><strong>H3:</strong> Se utiliza para subsecciones</li>
+                <li><strong>H4, H5, H6:</strong> Se utilizan para subsecciones más específicas</li>
+            </ul>
+            <p><em>Esto se utiliza en orden jerárquico</em></p>
+        </section>
+
+        <section>
+            <h2>5. Párrafos y Texto Lorem</h2>
+            <p><strong>Comando útil:</strong> Si escribes <code>Lorem</code> en VS Code te agrega un texto lorem automáticamente para rellenar contenido.</p>
+            
+            <h3>Ejemplo de párrafo con texto Lorem:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam distinctio eaque delectus! Aliquid ratione rem, aperiam beatae doloremque quae amet obcaecati quo, sint ea perferendis id, molestiae illum delectus. Eius.</p>
+        </section>
+
+        <section>
+            <h2>6. Etiquetas de Formato de Texto</h2>
+            <p>HTML ofrece varias etiquetas para dar formato y significado al texto:</p>
+            
+            <h3>Etiquetas de énfasis y importancia:</h3>
+            <ul>
+                <li><strong>&lt;strong&gt;:</strong> Texto importante o con énfasis fuerte</li>
+                <li><strong>&lt;em&gt;:</strong> Texto enfatizado (cursiva)</li>
+                <li><strong>&lt;b&gt;:</strong> Texto en negrita (solo visual)</li>
+                <li><strong>&lt;i&gt;:</strong> Texto en cursiva (solo visual)</li>
+            </ul>
+
+            <h3>Etiquetas para código y texto técnico:</h3>
+            <ul>
+                <li><strong>&lt;code&gt;:</strong> Fragmentos de código en línea</li>
+                <li><strong>&lt;pre&gt;:</strong> Texto preformateado (mantiene espacios y saltos)</li>
+                <li><strong>&lt;kbd&gt;:</strong> Teclas del teclado</li>
+                <li><strong>&lt;var&gt;:</strong> Variables</li>
+            </ul>
+
+            <h3>Otras etiquetas útiles:</h3>
+            <ul>
+                <li><strong>&lt;mark&gt;:</strong> Texto resaltado</li>
+                <li><strong>&lt;small&gt;:</strong> Texto pequeño</li>
+                <li><strong>&lt;sub&gt;:</strong> Subíndice</li>
+                <li><strong>&lt;sup&gt;:</strong> Superíndice</li>
+                <li><strong>&lt;del&gt;:</strong> Texto tachado</li>
+                <li><strong>&lt;ins&gt;:</strong> Texto insertado (subrayado)</li>
+            </ul>
+
+            <h3>Ejemplos visuales:</h3>
+            <p><strong>Texto importante</strong> - usando &lt;strong&gt;</p>
+            <p><em>Texto enfatizado</em> - usando &lt;em&gt;</p>
+            <p>Este es <code>código en línea</code> - usando &lt;code&gt;</p>
+            <p>Presiona <kbd>Ctrl</kbd> + <kbd>C</kbd> - usando &lt;kbd&gt;</p>
+            <p>Texto <mark>resaltado</mark> - usando &lt;mark&gt;</p>
+            <p>H<sub>2</sub>O y E=mc<sup>2</sup> - usando &lt;sub&gt; y &lt;sup&gt;</p>
+            <p><del>Texto eliminado</del> y <ins>texto insertado</ins></p>
+        </section>
+
+        <section>
+            <h2>7. Enlaces</h2>
+            <p>Los enlaces se crean utilizando la etiqueta <code>&lt;a&gt;</code>. El atributo <code>href</code> especifica la URL a la que se dirige el enlace.</p>
+            
+            <h3>Ejemplo de código y resultado:</h3>
+            <p><strong>Código:</strong> <code>&lt;a href="https://www.ejemplo.com"&gt;Ejemplo&lt;/a&gt;</code></p>
+            <p><strong>Resultado:</strong> <a href="https://www.ejemplo.com">Ejemplo</a></p>
+            
+            <p><strong>Importante:</strong> El enlace siempre debe comenzar con <code>https://</code> para que sea dirigido a una página externa, de lo contrario se asumirá que es un enlace interno dentro de alguna carpeta del proyecto.</p>
+        </section>
+
+        <section>
+            <h2>8. Tablas en HTML</h2>
+            <p>Las tablas se utilizan para mostrar datos organizados en filas y columnas. Son muy útiles para comparaciones y mostrar información estructurada.</p>
+            
+            <h3>Estructura básica de una tabla:</h3>
+            <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Encabezado 1&lt;/th&gt;
+        &lt;th&gt;Encabezado 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Dato 1&lt;/td&gt;
+        &lt;td&gt;Dato 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+            <h3>Elementos de una tabla:</h3>
+            <ul>
+                <li><strong>&lt;table&gt;:</strong> Contenedor principal de la tabla</li>
+                <li><strong>&lt;tr&gt;:</strong> Table Row - Fila de la tabla</li>
+                <li><strong>&lt;th&gt;:</strong> Table Header - Encabezado de columna (se ve en negrita)</li>
+                <li><strong>&lt;td&gt;:</strong> Table Data - Celda de datos</li>
+            </ul>
+
+            <h3>Tabla básica:</h3>
+            <table border="1">
+                <tr>
+                    <th>Etiqueta</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td>Encabezado principal</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Párrafo</td>
+                </tr>
+            </table>
+
+            <h3>Tabla con estilos mejorados:</h3>
+            <p>Para que la tabla se vea mejor, puedes agregar atributos de estilo:</p>
+            <pre><code>&lt;table border="1" style="border-collapse: collapse; width: 100%;"&gt;</code></pre>
+            
+            <p><strong>Atributos útiles:</strong></p>
+            <ul>
+                <li><strong>border="1":</strong> Agrega bordes a la tabla</li>
+                <li><strong>style="border-collapse: collapse":</strong> Une los bordes para que se vean mejor</li>
+                <li><strong>style="width: 100%":</strong> Hace que la tabla ocupe todo el ancho disponible</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Entidades HTML - Mostrando Código</h2>
+            <p>Para mostrar código HTML en una página web sin que se ejecute, necesitamos usar <strong>entidades HTML</strong>:</p>
+            
+            <h3>Entidades principales:</h3>
+            <ul>
+                <li><strong>&amp;lt;</strong> - Representa el símbolo <strong>&lt;</strong> (less than / menor que)</li>
+                <li><strong>&amp;gt;</strong> - Representa el símbolo <strong>&gt;</strong> (greater than / mayor que)</li>
+                <li><strong>&amp;amp;</strong> - Representa el símbolo <strong>&amp;</strong> (ampersand)</li>
+                <li><strong>&amp;quot;</strong> - Representa las comillas <strong>"</strong></li>
+            </ul>
+
+            <h3>¿Por qué son necesarias?</h3>
+            <p>El navegador interpreta <code>&lt;</code> y <code>&gt;</code> como inicio y fin de etiquetas HTML. Si queremos mostrar estas etiquetas como texto, debemos "escaparlas":</p>
+            
+            <h3>Ejemplos comparativos en tabla:</h3>
+            <table border="1" style="border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th>Lo que escribes en el código</th>
+                    <th>Lo que se ve en el navegador</th>
+                </tr>
+                <tr>
+                    <td><code>&amp;lt;h1&amp;gt;Título&amp;lt;/h1&amp;gt;</code></td>
+                    <td>&lt;h1&gt;Título&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                    <td><code>&amp;lt;strong&amp;gt;Texto&amp;lt;/strong&amp;gt;</code></td>
+                    <td>&lt;strong&gt;Texto&lt;/strong&gt;</td>
+                </tr>
+                <tr>
+                    <td><code>&amp;lt;a href="enlace.html"&amp;gt;Link&amp;lt;/a&amp;gt;</code></td>
+                    <td>&lt;a href="enlace.html"&gt;Link&lt;/a&gt;</td>
+                </tr>
+            </table>
+
+            <h3>Código completo de la tabla anterior:</h3>
+            <pre><code>&lt;table border="1" style="border-collapse: collapse; width: 100%;"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Lo que escribes en el código&lt;/th&gt;
+        &lt;th&gt;Lo que se ve en el navegador&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;code&gt;&amp;amp;lt;h1&amp;amp;gt;Título&amp;amp;lt;/h1&amp;amp;gt;&lt;/code&gt;&lt;/td&gt;
+        &lt;td&gt;&amp;lt;h1&amp;gt;Título&amp;lt;/h1&amp;gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+            <h3>Uso práctico:</h3>
+            <p>En esta misma página, hemos usado entidades HTML para mostrar todos los ejemplos de código sin que se ejecuten. Por ejemplo:</p>
+            <ul>
+                <li>Para mostrar <code>&lt;strong&gt;</code> escribimos <code>&amp;lt;strong&amp;gt;</code></li>
+                <li>Para mostrar <code>&lt;!-- comentario --&gt;</code> escribimos <code>&amp;lt;!-- comentario --&amp;gt;</code></li>
+            </ul>
+        </section>
+    </body>
+</html>
